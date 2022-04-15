@@ -1,3 +1,4 @@
 install: 
-FILE="-Dfile=lib-0.0.1.aar" 
-mvn install:install-file $FILE -DgroupId=com.test -DartifactId=lib -Dversion=0.0.1 -Dpackaging=aar -DpomFile=pom.xml
+- FILE="-Dfile=lib-0.0.1.aar" 
+- mvn install:install-file $FILE -DgroupId=com.test -DartifactId=lib -Dversion=0.0.1 -Dpackaging=aar -DpomFile=pom.xml
+
